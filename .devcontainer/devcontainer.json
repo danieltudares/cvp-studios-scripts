@@ -1,0 +1,16 @@
+{
+    "name": "AVD Universal",
+    "image": "ghcr.io/aristanetworks/avd/universal:python3.12-avd-v5.2.3",
+    "remoteUser": "avd",
+    "customizations":{
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python"
+            }
+        }
+    },
+    "mounts": [
+        "source=${localEnv:HOME}/.ssh,target=/home/avd/.ssh,type=bind,consistency=cached"
+        ],
+    "postCreateCommand": "zsh ./.devcontainer/postCreateCommand.sh"
+}

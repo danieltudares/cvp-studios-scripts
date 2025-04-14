@@ -1,0 +1,68 @@
+tags:
+  device_tags:
+
+  # Campus-POD-A ACCESS-POD-B
+  #   Campus-Pod-A-LEAF-2A tags
+  - label: Access-Pod
+    value: Access-A-POD-B
+    device_id: ad9aa15d3c234c87a152e67797903ce5
+  - label: Role
+    value: Leaf
+    device_id: ad9aa15d3c234c87a152e67797903ce5
+
+  # Campus-POD-B Spines tags
+  # SPINE A
+  - label: Campus
+    value: Campus-Fabric
+    device_id: b9f63c6a3b7743508c8fb96d06ebaa1e
+  - label: Campus-Pod
+    value: Campus-POD-B
+    device_id: b9f63c6a3b7743508c8fb96d06ebaa1e
+  - label: Role
+    value: Spine
+    device_id: b9f63c6a3b7743508c8fb96d06ebaa1e
+  # SPINE B
+  - label: Campus
+    value: Campus-Fabric
+    device_id: ba86b025a1b645b1b0335a76dd4c40a1
+  - label: Campus-Pod
+    value: Campus-POD-B
+    device_id: ba86b025a1b645b1b0335a76dd4c40a1
+  - label: Role
+    value: Spine
+    device_id: ba86b025a1b645b1b0335a76dd4c40a1
+
+  # Campus-POD-B ACCESS-POD-A
+  # Campus-Pod-B-LEAF-1A tags
+  - label: Campus
+    value: Campus-Fabric
+    device_id: a790dbb0ce2f4357a103b687cc72a508
+  - label: Campus-Pod
+    value: Campus-POD-B
+    device_id: a790dbb0ce2f4357a103b687cc72a508
+  - label: Access-Pod
+    value: Access-B-POD-A
+    device_id: a790dbb0ce2f4357a103b687cc72a508
+  - label: Role
+    value: Leaf
+    device_id: a790dbb0ce2f4357a103b687cc72a508
+
+  # Campus-Pod-B-LEAF-1B tags
+  - label: Campus
+    value: Campus-Fabric
+    device_id: 3627a73cba39454592f1d1b0f2dc3fc3
+  - label: Campus-Pod
+    value: Campus-POD-B
+    device_id: 3627a73cba39454592f1d1b0f2dc3fc3
+  - label: Access-Pod
+    value: Access-B-POD-A
+    device_id: 3627a73cba39454592f1d1b0f2dc3fc3
+  - label: Role
+    value: Leaf
+    device_id: 3627a73cba39454592f1d1b0f2dc3fc3
+
+  # interface_tags:
+  # - label: lldp_chassis
+  #   value: 00:50:56:97:29:53
+  #   device_id: JPE14252458
+  #   interface_id: Ethernet47

@@ -1,0 +1,6 @@
+venv
+.venv
+.DS_Store
+token.tok
+CVP.crt
+cred/*
