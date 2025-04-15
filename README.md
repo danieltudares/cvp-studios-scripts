@@ -1,4 +1,4 @@
-# This read me is still WIP
+# This readme is still WIP
 
 # Cloudvision Studios API scripts
 
