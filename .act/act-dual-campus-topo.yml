@@ -1,12 +1,12 @@
 veos:
   # Define the global vEOS node parameters
   username: cvpadmin
-  password: arista123
+  password: <PASSWORD>
   version: 4.33.1.1F
 generic:
   # Define global generic node parameters
   username: cvpadmin
-  password: arista123
+  password: <PASSWORD>
   version: ubuntu-2204-lts
 cvp:
   # Define global cvp node parameters
