@@ -85,3 +85,4 @@ curl-tags-getall               Get all device tags via Curl
 - [CloudVision python library](https://github.com/aristanetworks/cloudvision-python)
 - [CVP Python tags V2 examples](https://github.com/aristanetworks/cloudvision-python/tree/trunk/examples/resources/tag/v2)
 - [CVP Service Account Token creation](https://www.arista.io/help/articles/c2V0dGluZ3MuQWxsLmFjY2Vzc0NvbnRyb2wuc2VydmljZUFjY291bnRzLnRva2Vucw==)
+- [Understanding CloudVIsion APIs and accessing NetDB data](https://arista.my.site.com/AristaCommunity/s/article/Understanding-CloudVIsion-APIs-and-accessing-NetDB-data)
