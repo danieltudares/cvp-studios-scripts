@@ -86,7 +86,7 @@ curl-tags-getall               Get all device tags via Curl
 
 ## References and other examples
 
-- [Studios GRPC/REST demo](https://github.com/noredistribution/studios-demo)
+- [Studios gRPC/REST demo](https://github.com/noredistribution/studios-demo)
 - [CloudVision APIs](https://aristanetworks.github.io/cloudvision-apis/)
 - [CloudVision Studios and Workspace API examples](https://aristanetworks.github.io/cloudvision-apis/examples/rest/studios-and-workspaces/)
 - [CloudVision python library](https://github.com/aristanetworks/cloudvision-python)
