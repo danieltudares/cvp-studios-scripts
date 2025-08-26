@@ -31,7 +31,7 @@ import arista.tag.v2
 from google.protobuf import wrappers_pb2 as wrappers
 from google.protobuf.json_format import Parse
 
-RPC_TIMEOUT = 30  # in seconds
+RPC_TIMEOUT = 300  # in seconds
 
 payload_template = {
     "value": {

@@ -1,0 +1,41 @@
+inputs:
+  campus:
+  - inputs:
+      campusPod:
+      - inputs:
+          accessPod:
+          - inputs:
+              interfaces:
+              - inputs:
+                  adapterDetails:
+                    portProfile: access_10_profile
+                tags:
+                  query: interface:Ethernet7@76600ec7ced14d819043fcd86f56c819
+            tags:
+              query: Access-Pod:Access-B-POD-1
+        tags:
+          query: Campus-Pod:Campus-POD-B
+    tags:
+      query: Campus:Campus-Fabric
+  portProfiles:
+  - description: null
+    dot1x: {}
+    enabled: 'Yes'
+    eosCli: null
+    flowControl: {}
+    mode: access
+    name: access_10_profile
+    parentProfile: null
+    phone: {}
+    poe: {}
+    portChannel: {}
+    ptp: {}
+    qosProfile: null
+    spanningTree:
+      portfast: edge
+    speed: null
+    stormControl: {}
+    vlans:
+      vlans: '10'
+  spineCampus: []
+path: []
