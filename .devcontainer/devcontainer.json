@@ -1,6 +1,6 @@
 {
     "name": "AVD Universal",
-    "image": "ghcr.io/aristanetworks/avd/universal:python3.12-avd-v5.2.3",
+    "image": "ghcr.io/aristanetworks/avd/universal:python3.12-avd-v5.5.1",
     "remoteUser": "avd",
     "customizations":{
         "vscode": {

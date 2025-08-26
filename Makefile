@@ -14,6 +14,11 @@ help: ## Display help message (*: main entry points / []: part of an entry point
 curl-inventory-all: ## Get all CVP inventory hostnames via Curl
 	curl -L -kX GET --header 'Accept: application/json' -b access_token=`cat cred/token.tok` 'https://10.18.167.70/api/resources/inventory/v1/Device/all' | jq '.result.value | with_entries(select(.[])) | select(.streamingStatus=="STREAMING_STATUS_ACTIVE") | .hostname'
 
+.PHONY: curl-cvaas-inventory-all
+curl-cvaas-inventory-all: ## Get all CVP inventory hostnames via Curl
+	curl -L -kX GET --header 'Accept: application/json' -b access_token=`cat cred/cvaas.tok` 'https://www.cv-prod-na-northeast1-b.arista.io/api/resources/inventory/v1/Device/all' | jq '.result.value | with_entries(select(.[])) | select(.streamingStatus=="STREAMING_STATUS_ACTIVE") | .hostname'
+
+
 .PHONY: curl-active-streaming
 curl-active-streaming: ## Get all CVP devices actively streaming via Curl
 	curl -sS -kX GET --header 'Accept: application/json' -b access_token=`cat cred/token.tok` 'https://10.18.167.70/api/resources/inventory/v1/Device/all' -d '{"partialEqFilter": [{"streamingStatus":2}]}'

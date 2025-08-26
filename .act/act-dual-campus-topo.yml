@@ -2,107 +2,102 @@ veos:
   # Define the global vEOS node parameters
   username: cvpadmin
   password: <PASSWORD>
-  version: 4.33.1.1F
-generic:
-  # Define global generic node parameters
-  username: cvpadmin
-  password: <PASSWORD>
-  version: ubuntu-2204-lts
+  version: 4.34.0F
 cvp:
   # Define global cvp node parameters
   username: root
   password: cvproot
-  version: 2025.1.0
+  version: 2025.2.1
   instance: singlenode
 nodes:
   - Campus-Pod-A-LEAF-1A:
       ip_addr: 192.168.0.101
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-LEAF-1B:
       ip_addr: 192.168.0.102
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-LEAF-2A:
       ip_addr: 192.168.0.103
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-LEAF-3C:
       ip_addr: 192.168.0.104
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-LEAF-3A:
       ip_addr: 192.168.0.105
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-LEAF-3B:
       ip_addr: 192.168.0.106
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-LEAF-3D:
       ip_addr: 192.168.0.107
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-LEAF-3E:
       ip_addr: 192.168.0.108
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-SPINE-1:
       ip_addr: 192.168.0.11
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-SPINE-2:
       ip_addr: 192.168.0.12
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-1A:
       ip_addr: 192.168.0.111
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-1B:
       ip_addr: 192.168.0.112
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-2A:
       ip_addr: 192.168.0.113
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-3A:
       ip_addr: 192.168.0.115
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-3B:
       ip_addr: 192.168.0.116
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-3C:
       ip_addr: 192.168.0.117
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-3D:
       ip_addr: 192.168.0.118
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-LEAF-3E:
       ip_addr: 192.168.0.119
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-SPINE-1:
       ip_addr: 192.168.0.15
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-B-SPINE-2:
       ip_addr: 192.168.0.16
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - BB-1:
       ip_addr: 192.168.0.9
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - BB-2:
       ip_addr: 192.168.0.10
       node_type: veos
-      version: 4.31.2F
+      version: 4.34.0F
   - Campus-Pod-A-Host1:
       ip_addr: 192.168.0.221
       node_type: veos
