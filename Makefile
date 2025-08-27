@@ -43,6 +43,9 @@ get-tags: ## Get CVP tags via Python script and save to file
 get-studios-netupdatest: ## Get Studios I&T Network updates
 	python studios_scripts/studio_onboarding.py --server www.cv-staging.corp.arista.io --token-file cred/token.tok --operation get --build-only=True
 
+.PHONY: get-studios-static
+get-studios-static: ## Get Studios Static Config
+	python studios_scripts/studio_update.py --server www.cv-staging.corp.arista.io --token-file cred/token.tok --operation get --studio-id studio-static-configlet
 
 .PHONY: get-studios-input
 get-studios-input: ## Get Studios input (export) in for Campus fabric in YAML file
