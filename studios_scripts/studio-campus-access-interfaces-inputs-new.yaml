@@ -37,5 +37,24 @@ inputs:
     stormControl: {}
     vlans:
       vlans: '10'
+  # - description: null
+  #   dot1x: {}
+  #   enabled: 'Yes'
+  #   eosCli: null
+  #   flowControl: {}
+  #   mode: access
+  #   name: access_20_profile
+  #   parentProfile: null
+  #   phone: {}
+  #   poe: {}
+  #   portChannel: {}
+  #   ptp: {}
+  #   qosProfile: null
+  #   spanningTree:
+  #     portfast: edge
+  #   speed: null
+  #   stormControl: {}
+  #   vlans:
+  #     vlans: '20'
   spineCampus: []
 path: []

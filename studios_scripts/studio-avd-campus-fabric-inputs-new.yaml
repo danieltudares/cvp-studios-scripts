@@ -118,7 +118,16 @@ inputs:
                 name: ten
                 nodes: []
                 vrf: null
-
+              # - devices: []
+              #   dhcpHelpers: []
+              #   enabled: 'Yes'
+              #   eosCli: null
+              #   id: 20
+              #   ipVirtualRouterSubnet: null
+              #   multicast: {}
+              #   name: twenty
+              #   nodes: []
+              #   vrf: null
           tags:
             query: Campus-Pod:Campus-POD-B
     tags:

@@ -39,6 +39,11 @@ curl-create-workspace: ## Create a workspace via Curl
 get-tags: ## Get CVP tags via Python script and save to file
 	python tag_scripts/get_tags.py --server www.cv-staging.corp.arista.io --token-file cred/token.tok >> tag_scripts/cvp_tags.txt
 
+.PHONY: get-studios-netupdates
+get-studios-netupdatest: ## Get Studios I&T Network updates
+	python studios_scripts/studio_onboarding.py --server www.cv-staging.corp.arista.io --token-file cred/token.tok --operation get --build-only=True
+
+
 .PHONY: get-studios-input
 get-studios-input: ## Get Studios input (export) in for Campus fabric in YAML file
 	python studios_scripts/studio_update.py --server www.cv-staging.corp.arista.io --token-file cred/token.tok --operation get --studio-id studio-avd-campus-fabric 
