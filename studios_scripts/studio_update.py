@@ -69,7 +69,7 @@ def log(loglevel=0, logstring=''):
         print(logstring)
 
 
-RPC_TIMEOUT = 30  # in seconds
+RPC_TIMEOUT = 300  # in seconds
 CC_EXECUTION_TIMEOUT = 60  # in seconds
 MAINLINE_ID = ""  # ID to reference merged workspace data
 
